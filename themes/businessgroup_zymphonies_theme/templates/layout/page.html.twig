@@ -62,6 +62,11 @@
 <!-- Header and Navbar -->
 <header class="main-header">
   <nav class="navbar topnav navbar-default" role="navigation">
+    {% if page.header_menus %}
+      <div class="header_menus">
+        {{ page.header_menus }}
+      </div>
+    {% endif %}
     <div class="container">
       <div class="row">
       <div class="navbar-header col-md-3">
@@ -363,6 +368,20 @@
           </div>
         </div>
         {% endif %}
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          {{ page.footer_bottom_first }}
+        </div>
+        <div class="col-sm-3">
+          {{ page.footer_bottom_second }}
+        </div>
+        <div class="col-sm-3">
+          {{ page.footer_bottom_third }}
+        </div>
+        <div class="col-sm-3">
+          {{ page.footer_bottom_fourth }}
+        </div>
       </div>
     </div>
   </div>

@@ -615,3 +615,28 @@ table td, table th {
   border: 1px solid #ccc;
   text-align: left;
 }
+.header_menus {
+  position: relative;
+  margin-bottom: 2px;
+  padding-left: 1039px
+}
+.user-register-form {
+  max-width: 100% !important;
+}
+.path-user .profile >div {
+  display: block !important;
+}
+.path-user .profile >div > div:first-child {
+  float: left;
+  width: 300px;
+  font-weight: bold;
+}
+.path-user .profile >div > div:first-child::after{
+  content: " :";
+}
+.path-user .profile >div > a > img {
+  float: right
+}
+.region-footer-bottom-first ul , .region-footer-bottom-second ul , .region-footer-bottom-third ul , .region-footer-bottom-fourth ul  {
+  list-style: none;
+}
