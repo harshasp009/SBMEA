@@ -37,9 +37,6 @@ regions:
   google_map: 'Google Map'
   auto_hidden_block: 'Auto hidden blocks'
   footer_bottom_first: 'Footer Bottom First'
-  footer_bottom_second: 'Footer Bottom Second'
-  footer_bottom_third: 'Footer Bottom Third'
-  footer_bottom_fourth: 'Footer Bottom Fourth'
 # Information added by Drupal.org packaging script on 2016-02-04
 version: '8.x-1.0'
 core: '8.x'

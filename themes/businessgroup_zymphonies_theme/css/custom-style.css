@@ -640,3 +640,9 @@ table td, table th {
 .region-footer-bottom-first ul , .region-footer-bottom-second ul , .region-footer-bottom-third ul , .region-footer-bottom-fourth ul  {
   list-style: none;
 }
+.views-view-grid .views-field-field-upload-photo-gallery-image img {
+  margin-left: 0;
+}
+.views-field-field-designation-member {
+  font-weight: bold;
+}
