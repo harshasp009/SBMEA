@@ -61,49 +61,49 @@
 
 <!-- Header and Navbar -->
 <header class="main-header">
-  <nav class="navbar topnav navbar-default" role="navigation">
-    {% if page.header_menus %}
-      <div class="header_menus">
-        {{ page.header_menus }}
-      </div>
-    {% endif %}
-    <div class="container">
-      <div class="row">
-      <div class="navbar-header col-md-3">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        {% if page.header %}
-          {{ page.header }}
-        {% endif %}
-      </div>
-
-      <!-- Navigation -->
-      <div class="col-md-9">
-        {% if page.primary_menu %}
-          {{ page.primary_menu }}
-        {% endif %}      
-      </div>
-      <!--End Navigation -->
-
-      </div>
-    </div>
-  </nav>
-
-  <!-- Banner -->
-  {% if is_front and page.slideshow %}  
-    <div class="container slideshow">
-      <div class="row">
-        <div class="col-md-12">
-            {{ page.slideshow }}
+    <nav class="navbar topnav navbar-default" role="navigation">
+        <div class="container">
+            <div class="row">
+                {% if page.header %}
+                    {{ page.header }}
+                {% endif %}
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <!-- Navigation -->
+                    {% if page.primary_menu %}
+                        {{ page.primary_menu }}
+                    {% endif %}
+                    <!--End Navigation -->
+                </div>
+                <div class="col-md-3">
+                    {% if page.header_menus %}
+                        {{ page.header_menus }}
+                    {% endif %}
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  {% endif %}
-  <!-- End Banner -->
+    </nav>
+
+    <!-- Banner -->
+    {% if is_front and page.slideshow %}
+        <div class="container slideshow">
+            <div class="row">
+                <div class="col-md-12">
+                    {{ page.slideshow }}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    <!-- End Banner -->
 
 </header>
 <!--End Header & Navbar -->

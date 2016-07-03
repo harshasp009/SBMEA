@@ -3,7 +3,7 @@
   .region-primary-menu{
     display: inline-block;
     float: right;
-    width: auto;
+    /*width: auto;*/
     margin: 0;
   }
 
