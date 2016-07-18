@@ -649,6 +649,17 @@ table td, table th {
 }
 .views-view-grid .views-field-field-upload-photo-gallery-image img {
   margin-left: 0;
+  padding: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 8px #888888;
+  margin-bottom: 10px;
+}
+
+.views-view-grid .views-field-title {
+
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .views-field-field-designation-member {
   font-weight: bold;
