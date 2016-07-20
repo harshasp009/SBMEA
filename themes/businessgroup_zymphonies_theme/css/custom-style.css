@@ -664,3 +664,25 @@ table td, table th {
 .views-field-field-designation-member {
   font-weight: bold;
 }
+@media screen and (max-width:768px) {
+  .message-member {
+      width: 100% !important;
+  }
+  .photo-gallery {
+    width: 100% !important;
+  }
+  .video-gallery {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .youtube-container--responsive iframe {
+    width: 450px !important;
+    height: 315px !important;
+  }
+
+}
+.heads_menu {
+  margin-top: 14px;
+}
